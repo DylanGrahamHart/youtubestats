@@ -1,0 +1,9 @@
+.idea/
+.git/
+node_modules/
+
+.ignore
+.gitignore
+
+gulpfile.js
+package.json

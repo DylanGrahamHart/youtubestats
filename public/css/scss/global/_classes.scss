@@ -1,0 +1,76 @@
+/**
+ * Layout
+ */
+.clr {
+  clear: both;
+}
+.clrf:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.grid {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.dib {
+  display: inline-block;;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+
+/**
+ * Margin & Padding
+ */
+@for $i from 1 through 20 {
+  $marginPaddingNumber: $i * 5;
+
+  .mg-#{$marginPaddingNumber} {
+    margin: $marginPaddingNumber + px;
+  }  
+  .mgt-#{$marginPaddingNumber} {
+    margin-top: $marginPaddingNumber + px;
+  }
+  .mgb-#{$marginPaddingNumber} {
+    margin-bottom: $marginPaddingNumber + px;
+  }
+  .mgl-#{$marginPaddingNumber} {
+    margin-left: $marginPaddingNumber + px;
+  }
+  .mgr-#{$marginPaddingNumber} {
+    margin-right: $marginPaddingNumber + px;
+  }
+
+  .pd-#{$marginPaddingNumber} {
+    padding: $marginPaddingNumber + px;
+  }  
+  .pdt-#{$marginPaddingNumber} {
+    padding-top: $marginPaddingNumber + px;
+  }
+  .pdb-#{$marginPaddingNumber} {
+    padding-bottom: $marginPaddingNumber + px;
+  }
+  .pdl-#{$marginPaddingNumber} {
+    padding-left: $marginPaddingNumber + px;
+  }
+  .pdr-#{$marginPaddingNumber} {
+    padding-right: $marginPaddingNumber + px;
+  }    
+}
+
+/**
+ * Font size
+ */
+@for $i from 4 through 24 {
+  $fontSize: $i * 2;
+
+  .fs-#{$fontSize} {
+    font-size: $fontSize + px;
+  }
+}

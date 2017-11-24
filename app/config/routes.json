@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/",
+    "controller": "MainController",
+    "method": "home"
+  },
+  {
+    "path": "/derp",
+    "controller": "MainController",
+    "method": "derp"
+  },
+  {
+    "path": "/cron",
+    "controller": "MainController",
+    "method": "cron"
+  }  
+]

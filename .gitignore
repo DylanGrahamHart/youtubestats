@@ -1,0 +1,9 @@
+.idea/
+
+node_modules/
+.git-old/
+
+
+# App
+public/css/main.css
+

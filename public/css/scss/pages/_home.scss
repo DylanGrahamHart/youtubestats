@@ -1,0 +1,54 @@
+#page-home {
+
+  h1 {
+    color: orange;
+  }
+
+  .form-control {
+    width: 120px;
+  }
+
+  li {
+    padding: 20px 0;
+    margin-bottom: 10px;
+    border-top: 1px solid #286090;
+
+    &:first-child {
+      margin-top: 10px;
+      // border-top: none;
+    }
+  }
+
+  .img-wrap {
+    float: left;
+
+    @media(max-width: $iPadWidth - 1) {
+      max-width: 30%;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .txt-wrap {
+    float: left;
+    padding-left: 30px;
+
+    @media(max-width: $iPadWidth - 1) {
+      max-width: 70%;
+    }
+    
+    strong {
+      font-size: 36px
+    }
+
+    p {
+      font-size: 24px;
+
+      b {
+        color: #000;
+      }
+    }
+  }
+}
