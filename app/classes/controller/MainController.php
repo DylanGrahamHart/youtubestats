@@ -5,7 +5,7 @@ class MainController {
   static function home() {
     $params = [
       // 'id' => ChannelService::getChannelIds('my-subs')
-      'id' => ChannelService::getChannelIds('top-50-by-subs')
+      'id' => ChannelService::getChannelIds('top-10-by-subs')
     ];
 
     $viewModel = ChannelService::getApiData($params);
